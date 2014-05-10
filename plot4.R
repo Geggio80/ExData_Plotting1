@@ -13,8 +13,8 @@ df <- read.csv.sql("household_power_consumption.txt",query,sep=";")
 options(warn=-1)
 
 # Convert "Date" and "Time" and adjust local settings
-x = strptime(paste(df[,1],df[,2]),"%d/%m/%Y %H:%M:%S")
-t = Sys.setlocale("LC_TIME","English")
+x <- strptime(paste(df[,1],df[,2]),"%d/%m/%Y %H:%M:%S")
+t <- Sys.setlocale("LC_TIME","English")
 
 # Set file device and plot four timelines (four plot) with annotation
 png("plot4.png",width = 480, height = 480,units = "px",bg = "transparent")
