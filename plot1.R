@@ -1,4 +1,5 @@
 ## PLOT 1: GLOBAL ACTIVE POWER HISTOGRAM
+## (for re-run the code, change the work directory with setwd() )
 
 # Clear global environment
 rm(list = ls())
@@ -12,6 +13,6 @@ df <- read.csv.sql("household_power_consumption.txt",query,sep=";")
 options(warn=-1)
 
 # Set file device and plot histogram with annotation
-png("plot1.png",bg = "transparent")
+png("plot1.png",width = 480, height = 480,units = "px",bg = "transparent")
 hist(df[,3],col="red",main="Global Active Power",xlab="Global Active Power (kilowatts)")
 dev.off()

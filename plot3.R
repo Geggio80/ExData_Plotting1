@@ -1,4 +1,5 @@
-## PLOT 3: ENERGY SUB METERING TIMELINES (FOR DIFFERENT CLASSES)
+## PLOT 3: ENERGY SUB METERING TIMELINE (FOR DIFFERENT CLASSES)
+## (for re-run the code, change the work directory with setwd() )
 
 # Clear global environment
 rm(list = ls())
@@ -16,7 +17,7 @@ x = strptime(paste(df[,1],df[,2]),"%d/%m/%Y %H:%M:%S")
 t = Sys.setlocale("LC_TIME","English")
 
 # Set file device and plot three timelines (one plot) with annotation
-png("plot3.png",bg = "transparent")
+png("plot3.png",width = 480, height = 480,units = "px",bg = "transparent")
 plot(x,df[,7],type="l",xlab="",ylab="Energy sub metering")
 lines(x,df[,8],type="l",col="red")
 lines(x,df[,9],type="l",col="blue")

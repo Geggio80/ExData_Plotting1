@@ -1,4 +1,5 @@
-## PLOT 4: MULTIPLE TIMELINES (FOUR GRAPHICS)
+## PLOT 4: MULTIPLE TIMELINE (FOUR GRAPHICS)
+## (for re-run the code, change the work directory with setwd() )
 
 # Clear global environment
 rm(list = ls())
@@ -16,7 +17,7 @@ x = strptime(paste(df[,1],df[,2]),"%d/%m/%Y %H:%M:%S")
 t = Sys.setlocale("LC_TIME","English")
 
 # Set file device and plot four timelines (four plot) with annotation
-png("plot4.png",bg = "transparent")
+png("plot4.png",width = 480, height = 480,units = "px",bg = "transparent")
 par(mfrow=c(2,2))
 
 # a) Plot 1,1
