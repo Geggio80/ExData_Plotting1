@@ -1,5 +1,5 @@
 ## PLOT 4: MULTIPLE TIMELINE (FOUR GRAPHICS)
-## (for re-run the code, change the work directory with setwd() )
+## (to re-run the code, change the work directory with setwd() )
 
 # Clear global environment
 rm(list = ls())

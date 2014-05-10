@@ -1,5 +1,5 @@
 ## PLOT 1: GLOBAL ACTIVE POWER HISTOGRAM
-## (for re-run the code, change the work directory with setwd() )
+## (to re-run the code, change the work directory with setwd() )
 
 # Clear global environment
 rm(list = ls())
