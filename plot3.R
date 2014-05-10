@@ -1,5 +1,5 @@
-## PLOT 3: ENERGY SUB METERING TIMELINE (FOR DIFFERENT CLASSES)
-## (to re-run the code, change the work directory with setwd() )
+# PLOT 3: ENERGY SUB METERING TIMELINE (FOR DIFFERENT CLASSES)
+# (to re-run the code, change the work directory with setwd() )
 
 # Clear global environment
 rm(list = ls())

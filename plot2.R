@@ -1,5 +1,5 @@
-## PLOT 2: GLOBAL ACTIVE POWER TIMELINE
-## (to re-run the code, change the work directory with setwd() )
+# PLOT 2: GLOBAL ACTIVE POWER TIMELINE
+# (to re-run the code, change the work directory with setwd() )
 
 # Clear global environment
 rm(list = ls())
